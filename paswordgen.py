@@ -11,7 +11,7 @@ length = 8
 iden = Up+low+num+sys
 
 username ="".join(random.sample(iden, length))
-if iden == length: # membuat pengecualian untuk user
+if iden != length: # membuat pengecualian untuk user
     print("Invalid")
 else:
     print(f"Pasword Anda adalah: {username}")
