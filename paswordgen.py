@@ -10,6 +10,6 @@ sys = "_."
 length = 8
 iden = Up+low+num+sys
 username ="".join(random.sample(iden, length))
-print(f"Password anda adalah : " {username})
+print(f"Password anda adalah : {username}")
 
         
