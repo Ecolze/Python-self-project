@@ -6,10 +6,6 @@ import math
 def nilai_a():
     b = int(input("Enter B : "))
     c =  int(input("Enter C : "))
-    # Calculate the expression safely
-    if math.pow(b, 2) - math.pow(c, 2) < 0:
-        print("Error: Cannot compute square root of a negative number.")
-        return
     a = math.sqrt(math.pow(b,2) - math.pow(c,2))
     rumus = math.pow(a,2) - math.pow(b,2)
     return rumus
@@ -17,10 +13,6 @@ def nilai_a():
 def nilai_b():
     a = int(input("Enter A : "))
     c =  int(input("Enter C : "))
-    # Calculate the expression safely
-    if math.pow(a, 2) - math.pow(c, 2) < 0:
-        print("Error: Cannot compute square root of a negative number.")
-        return
     b = math.sqrt(math.pow(a,2) - math.pow(c,2))
     rumus = math.pow(a,2) - math.pow(b,2)
     return rumus
@@ -28,10 +20,6 @@ def nilai_b():
 def nilai_c():
     a = int(input("Enter A : "))
     b =  int(input("Enter B : "))
-    # Calculate the expression safely
-    if math.pow(a, 2) + math.pow(b, 2) < 0:
-        print("Error: Cannot compute square root of a negative number.")
-        return
     c = math.sqrt(math.pow(a,2) + math.pow(b,2))
     return c
 
